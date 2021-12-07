@@ -78,6 +78,21 @@
   top: 0; 
 }
 
+.icon {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.icon .title {
+  font-size: 8px;
+  transform: translateY(1px);
+}
+
+.icon svg {
+  margin-right: 5px;
+}
+
 .message a {
     font-size: 10px;
     text-align: center;
